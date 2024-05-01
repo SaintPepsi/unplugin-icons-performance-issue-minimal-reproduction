@@ -6,7 +6,12 @@
 	const { children, text }: { children: Snippet; text: string } = $props();
 </script>
 
-<button onclick={() => (showChild = !showChild)}>
+<button
+	onclick={(e) => {
+		console.trace('button onclick e: ', e);
+		showChild = !showChild;
+	}}
+>
 	{#if showChild}
 		<!-- content here -->
 		Hide

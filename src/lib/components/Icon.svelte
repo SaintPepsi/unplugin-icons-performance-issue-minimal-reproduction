@@ -15,9 +15,10 @@
 	import FluentEmojiGrinningFaceWithSmilingEyes from '~icons/fluent-emoji/grinning-face-with-smiling-eyes';
 	import IconAccountBox from '~icons/mdi/account-box';
 
-	import _ from 'lodash-es';
+	import sample from 'lodash-es/sample';
 
-	const iconToRender = _.sample(icons);
+	const iconToRender = sample(icons);
+	console.trace('iconToRender', iconToRender);
 </script>
 
 <svelte:component this={iconToRender} />
