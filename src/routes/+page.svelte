@@ -9,6 +9,19 @@
 	<ToggleChildDisplay text="Direct Render">
 		<Icon />
 	</ToggleChildDisplay>
+
+	<ToggleChildDisplay text="Direct Render Many Children">
+		<Icon />
+		<Icon />
+		<Icon />
+		<Icon />
+		<Icon />
+		<Icon />
+		<Icon />
+		<Icon />
+		<Icon />
+	</ToggleChildDisplay>
+
 	<ToggleChildDisplay text="Direct Render SVG">
 		<SvgIcon />
 	</ToggleChildDisplay>
